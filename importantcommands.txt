@@ -1,0 +1,96 @@
+Windows IP Configuration
+
+
+Wireless LAN adapter Local Area Connection* 3:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 4:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . : home
+   IPv6 Address. . . . . . . . . . . : fd4b:8d38:69ba:1:d480:8857:d6f1:ba3a
+   Temporary IPv6 Address. . . . . . : fd4b:8d38:69ba:1:e930:8a7e:b2d2:5991
+   Link-local IPv6 Address . . . . . : fe80::d480:8857:d6f1:ba3a%9
+   IPv4 Address. . . . . . . . . . . : 192.168.1.10
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 192.168.1.1
+
+C:\Users\david>nslookup www.amazon.com
+Server:  openrg.home
+Address:  192.168.1.1
+
+Non-authoritative answer:
+Name:    d3ag4hukkh62yn.cloudfront.net
+Address:  54.192.101.73
+Aliases:  www.amazon.com
+          tp.47cf2c8c9-frontier.amazon.com
+
+
+C:\Users\david>ping 54.192.101.73
+
+Pinging 54.192.101.73 with 32 bytes of data:
+Reply from 54.192.101.73: bytes=32 time=33ms TTL=231
+Reply from 54.192.101.73: bytes=32 time=20ms TTL=231
+Reply from 54.192.101.73: bytes=32 time=30ms TTL=231
+Reply from 54.192.101.73: bytes=32 time=20ms TTL=231
+
+Ping statistics for 54.192.101.73:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 20ms, Maximum = 33ms, Average = 25ms
+
+C:\Users\david>ipconfig/all
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : LAPTOP-2RJSGK50
+   Primary Dns Suffix  . . . . . . . :
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+   DNS Suffix Search List. . . . . . : home
+
+Wireless LAN adapter Local Area Connection* 3:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter #3
+   Physical Address. . . . . . . . . : 96-08-53-6E-B2-7B
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Local Area Connection* 4:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter #4
+   Physical Address. . . . . . . . . : A6-08-53-6E-B2-7B
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . : home
+   Description . . . . . . . . . . . : Qualcomm Atheros QCA61x4A Wireless Network Adapter
+   Physical Address. . . . . . . . . : 96-08-76-6E-8E-DB
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   IPv6 Address. . . . . . . . . . . : fd4b:8d38:69ba:1:d480:8857:d6f1:ba3a(Preferred)
+   Temporary IPv6 Address. . . . . . : fd4b:8d38:69ba:1:e930:8a7e:b2d2:5991(Preferred)
+   Link-local IPv6 Address . . . . . : fe80::d480:8857:d6f1:ba3a%9(Preferred)
+   IPv4 Address. . . . . . . . . . . : 192.168.1.10(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : Friday, May 27, 2022 6:00:02 PM
+   Lease Expires . . . . . . . . . . : Friday, May 27, 2022 8:00:01 PM
+   Default Gateway . . . . . . . . . : 192.168.1.1
+   DHCP Server . . . . . . . . . . . : 192.168.1.1
+   DHCPv6 IAID . . . . . . . . . . . : 160827510
+   DHCPv6 Client DUID. . . . . . . . : 00-03-00-01-96-08-76-6E-8E-DB
+   DNS Servers . . . . . . . . . . . : 192.168.1.1
+   NetBIOS over Tcpip. . . . . . . . : Enabled
